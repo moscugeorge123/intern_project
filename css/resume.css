@@ -1,0 +1,268 @@
+html {
+    font-size: 14px;
+    line-height: 1.6
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    background: #f9fafb;
+    margin-top: 20px
+}
+
+.b-resume-main-heading{
+	color: #133b54;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 130px;
+}
+.b-resume-black-logo{
+	background: #1a1a1a url(../img/icons/black-logo.png) center center no-repeat;
+	height: 60px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+
+}
+.b-resume-container{
+	margin-bottom: 80px;
+}
+.b-resume-wrapper{
+	border-radius: 5px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+	padding: 0;
+}
+.b-resume-left-heading{
+	float: left;
+	color: #133b54;
+	font-size: 35px;
+	font-weight: 700;
+	background: white;
+
+}
+.b-resume-form-wrapper{
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	padding-bottom: 45px;
+}
+.b-resume-left-heading h3{
+	color: #133b54;
+	font-size: 35px;
+	font-weight: 700;
+
+}
+.b-resume-form-right-block{
+	float: right;
+}
+.b-resume-form{
+	float: right;
+	background: white;
+}
+.b-resume-form input{
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+	padding: 70px 0 20px;
+	font-size: 15px;
+    font-weight: 700;
+	color: black;
+}
+.b-resume-input-div{
+	position: relative;
+}
+.b-resume-form span{
+	position: absolute;
+	left: 0;
+    top: 27px;
+    z-index: 10;
+	font-weight: 700;
+	color: #bfbfbf;
+}
+
+::-webkit-input-placeholder {color:black;}
+::-moz-placeholder          {color:black;}/* Firefox 19+ */
+:-moz-placeholder           {color:black;}/* Firefox 18- */
+:-ms-input-placeholder      {color:black;}
+
+.b-resume-form hr{
+	width: 100%;
+	border: none;
+	height: 1px;
+	color: rgba(0,0,0,0.1);
+}
+.b-resume-form {
+	padding-left: 0;
+	padding-right: 0;
+}
+.b-resume-label-button{
+	background: url(../img/icons/upload.png) no-repeat center center;
+	height: 170px;
+	width: 170px;
+}
+.b-resume-form-photo-upload{
+	height: 220px;
+}
+.b-resume-form-photo-upload input{
+	border: none;
+	line-height: 80px;
+	opacity: 0;
+	width: 170px;
+	margin: auto;
+}
+.b-resume-form-photo-upload--inner{
+	width: auto;
+	margin: auto;
+}
+
+.b-resume-form-photo-upload label{
+	position: absolute;
+    left: 50%;
+    margin-left: -85px;
+    padding-top: 15px;
+}
+#b-resume-form--create{
+	height: 40px;
+	background-color: #d31f45;
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+	text-align: center;
+	padding: 0;
+	cursor: pointer;
+}
+.b-resume-form--create-wrapper:hover{
+	
+}
+.b-resume-form--create-wrapper:after{
+	content: url(../img/icons/resume-arrow.png);
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: 85px;
+	top: 11px;
+}
+.b-resume-form--create-wrapper{
+	padding: 0;
+}
+#upload-pic{
+	cursor: pointer;
+}
+.b-resume-form .btn-add-job,.b-resume-form .btn-add-education {
+	color: white;
+	padding: 0;
+	width: 310px;
+	height: 40px;
+	background-color: #d31f45;
+	border-radius: 20px;
+}
+.b-resume-add-job{
+	top: 21px!important;
+	position: relative;
+}
+.b-resume-add-job:after{
+	content: url(../img/icons/plus.png);
+	display: block;
+	position: absolute;
+	right: 35px;
+	top: 10px;
+}
+.b-resume-form-right-block h4{
+	color: #133b54;
+    font-size: 15px;
+    font-weight: 700;
+}
+.b-resume-add-edu{
+	top: 21px!important;
+	position: relative;
+}
+.b-resume-add-edu:after{
+	content: url(../img/icons/plus.png);
+	display: block;
+	position: absolute;
+	right: 35px;
+	top: 10px;
+}
+.b-resume-form-right-block input{
+    font-family: Roboto, sans-serif;	
+}
+.b-resume--radio input{
+	width: 200px;
+	position: absolute;
+	float: right;
+	left: 115px;
+}
+.b-resume--radio label{
+	font-size: 15px;
+}
+.b-resume--radio{
+	height: 40px;
+	position: relative;
+}
+.b-resume-lang-block{
+	margin-bottom: 40px;
+}
+.b-resume-textarea textarea{
+	width: 100%;
+	border: 1px solid #b2b2b2;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+#textarea{
+	margin-top: 20px;
+}
+
+/* tag-it styling BEGIN */
+#textarea ul.tagit li.tagit-choice{
+	width: auto;
+	height: 37px;
+}
+#textarea ul.tagit li.tagit-choice-editable{
+	padding: 4px 17px 4px 14px;
+	background: white;
+	border: 1px solid #b2b2b2;
+}
+
+#textarea .tagit-label{
+	position: relative;
+    left: -5px;
+    top: 0px;
+    padding-right: 6px;
+    padding-left: 4px;
+    color: black;
+    font-size: 18px;
+}
+#textarea ul.tagit li.tagit-choice .tagit-close {
+    right:20px;
+    top: -7px;
+}
+#textarea ul.tagit li.tagit-choice .tagit-close .text-icon{
+	font-size: 20px;
+	line-height: 13px;
+}
+
+
+/* tag-it styling END */
+
+/* datepicker styles BEGIN */
+
+
+#from{
+	position: relative;
+	display: inline-block;
+
+}
+#to{
+	display: inline-block;
+}
+.b-resume-input-div.datepicker label{
+	z-index: 100;
+}
+.b-resume-input-div.datepicker{
+	height: 100px;
+	position: relative;
+}
+
+.datepicker input{
+	border-bottom: none;
+}
+#ui-datepicker-div .ui-widget-header{
+	border: 1px solid #283C54;
+	background: #283C54 url("images/ui-bg_gloss-wave_36_f6a828_500x100.png") 50% 50% repeat-x;
+}
+/* datepicker styles END */
