@@ -877,7 +877,7 @@ div.event a {
     z-index: 3; */
     background: #fff;
     /* margin-right: 50px; */
-    height: 420px;
+    min-height: 420px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -892,7 +892,7 @@ div.event a {
     margin-bottom: 20px;
 }
 
-.speaker-picture{
+.speaker-picture {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -909,4 +909,3 @@ div.event a {
 #andrei_postolache {
     background-image: url(../img/postolache_poza_profil.jpg);
 }
-
