@@ -892,10 +892,21 @@ div.event a {
     margin-bottom: 20px;
 }
 
-.speaker-picture {
-    background-image: url(/img/andrei_poza_profil.jpg);
+.speaker-picture{
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     min-height: 420px;
 }
+
+#andrei_danila {
+    background-image: url(../img/andrei_poza_profil.jpg);
+}
+
+#georgiana_dragomir {
+    background-image: url(../img/georgiana_poza_profil.jpg);
+}
+#andrei_postolache {
+    background-image: url(../img/postolache_poza_profil.jpg);
+}
+
