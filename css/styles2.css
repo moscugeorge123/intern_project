@@ -858,12 +858,11 @@ div.event a {
 .title {
     text-align: center;
     margin-top: 45px !important;
-    margin-bottom: 45px !important;
+    margin-bottom: 20px !important;
     font-size: 32px;
 }
 .logo-wrapper {
     height: 50px;
-    text-align: center;
     display: flex;
     justify-content: center;
 }
@@ -877,7 +876,7 @@ div.event a {
     z-index: 3; */
     background: #fff;
     /* margin-right: 50px; */
-    height: 420px;
+    min-height: 420px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -893,9 +892,19 @@ div.event a {
 }
 
 .speaker-picture {
-    background-image: url(/img/andrei_poza_profil.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     min-height: 420px;
+}
+
+#andrei_danila {
+    background-image: url(../img/andrei_poza_profil.jpg);
+}
+
+#georgiana_dragomir {
+    background-image: url(../img/georgiana_poza_profil.jpg);
+}
+#andrei_postolache {
+    background-image: url(../img/postolache_poza_profil.jpg);
 }

@@ -2781,7 +2781,6 @@ table.course_info tr td:last-child {
 }
 
 .lecturers-foto {
-    ;
     width: 150px;
     height: 150px;
     background: #EFEFEF;
@@ -3393,6 +3392,7 @@ table.course_info tr td:last-child {
 
 table.timeTableCourses.dayCourse tr td > * > span {
     display: block;
+    box-sizing: border-box;
 }
 
 .wrapper-dropdown-2 {
@@ -6535,7 +6535,7 @@ h2.vacansy-desc {
     background: #F3F2F7 url(../img/icons/freeConsIco.png) 20px center no-repeat;
 }
 
-.
+
 /*course.dis:before{content:'-'attr(data-dis)'%';color:white;background-color:#faa31a;position:absolute;left:0;top:0;font-weight:normal;height:100%;font-size:18px;width:65px;text-align:center;line-height:2.8;}
 .course.dis:after{content:'';position:absolute;left:65px;top:0;height:100%;font-size:18px;width:0px;height:0;border:25px solid transparent;border-right:10px solid transparent;border-left:10px solid #faa31a;}
 .course:before{content:'x'attr(data-weeks)' нед';color:white;background-color:#133b54;position:absolute;left:0;top:0;font-weight:normal;height:100%;font-size:16px;width:65px;text-align:center;line-height:3;}
@@ -6903,10 +6903,10 @@ form input.sendCourseFree:hover {
 .timeTableCourses tr:not(.infoRow):hover {
     background: #F3F3F5;
 }
-
+/* 
 .timeTableCourses tr:not(.infoRow):hover * {
     font-weight: bold;
-}
+} */
 
 .timeTableCourses a:hover {
     text-decoration: none;
@@ -9612,7 +9612,7 @@ table.timeTableCourses.dayCourse tr th {
     color: white;
     font-family: roboto;
     font-weight: 100;
-    font-size: 48px position: relative;
+    font-size: 48px; position: relative;
     z-index: 1;
 }
 
@@ -10931,7 +10931,7 @@ body > iframe {
     .timeTableCourses tr td {
         display: inline-block;
         float: left;
-        width: 33.33333%;
+        width: 50%;
     }
     .timeTableCourses tr td:first-child {
         padding-left: 10px;
@@ -10941,7 +10941,7 @@ body > iframe {
     .timeTableCourses td {
         padding: 10px;
     }
-    .timeTableCourses td.data.not(:nth-last-of-type(3)) {
+    .timeTableCourses td.data:not(:nth-last-of-type(3)) {
         display: none !important;
     }
     .linkCourseToT {
@@ -11120,7 +11120,7 @@ body > iframe {
         color: white;
     }
     table.timeTableCourses.dayCourse tr td {
-        width: 33% !important;
+        width: 50% !important;
         display: block;
         float: left;
     }
@@ -11438,7 +11438,7 @@ body > iframe {
         }
         #flex > li.hover li a {
             padding-left: 20px;
-            background:
+            /* background: */
         }
         #flex > li > .parent {
             background-image: url("../img/icons/downArrow.png");
@@ -14490,7 +14490,7 @@ body > iframe {
                 border-bottom: 1px solid #ccc;
                 background: #F3F2F7 url(../img/icons/freeConsIco.png) 20px center no-repeat;
             }
-            ./*course.dis:before{content:'-'attr(data-dis)'%';color:white;background-color:#faa31a;position:absolute;left:0;top:0;font-weight:normal;height:100%;font-size:18px;width:65px;text-align:center;line-height:2.8;}
+            /*course.dis:before{content:'-'attr(data-dis)'%';color:white;background-color:#faa31a;position:absolute;left:0;top:0;font-weight:normal;height:100%;font-size:18px;width:65px;text-align:center;line-height:2.8;}
 .course.dis:after{content:'';position:absolute;left:65px;top:0;height:100%;font-size:18px;width:0px;height:0;border:25px solid transparent;border-right:10px solid transparent;border-left:10px solid #faa31a;}
 .course:before{content:'x'attr(data-weeks)' нед';color:white;background-color:#133b54;position:absolute;left:0;top:0;font-weight:normal;height:100%;font-size:16px;width:65px;text-align:center;line-height:3;}
 .course:after{content:'';position:absolute;left:65px;top:0;height:100%;font-size:18px;width:0px;height:0;border:25px solid transparent;border-right:10px solid transparent;border-left:10px solid #133b54;}*/
@@ -14804,9 +14804,9 @@ body > iframe {
             .timeTableCourses tr:not(.infoRow):hover {
                 background: #F3F3F5;
             }
-            .timeTableCourses tr:not(.infoRow):hover * {
+            /* .timeTableCourses tr:not(.infoRow):hover * {
                 font-weight: bold;
-            }
+            } */
             .timeTableCourses a:hover {
                 text-decoration: none;
                 color: #faa31a;
@@ -16928,7 +16928,7 @@ body > iframe {
                 color: white;
                 font-family: roboto;
                 font-weight: 100;
-                font-size: 48px position: relative;
+                font-size: 48px; position: relative;
                 z-index: 1;
             }
             #mainM h3 {
@@ -17568,7 +17568,7 @@ body > iframe {
     }
     #flex > li.hover li a {
         padding-left: 20px;
-        background:
+        /* background: */
     }
     #flex > li.hover > ul {
         display: block !important;
@@ -18183,7 +18183,7 @@ body > iframe {
                 .timeTableCourses tr td {
                     display: inline-block;
                     float: left;
-                    width: 33.33333%;
+                    width: 50%;
                 }
                 .timeTableCourses tr td:first-child {
                     padding-left: 10px;
@@ -18193,7 +18193,7 @@ body > iframe {
                 .timeTableCourses td {
                     padding: 10px;
                 }
-                .timeTableCourses td.data.not(:nth-last-of-type(3)) {
+                .timeTableCourses td.data:not(:nth-last-of-type(3)) {
                     display: none !important;
                 }
                 .linkCourseToT {
@@ -18659,7 +18659,7 @@ body > iframe {
     }
     #flex > li.hover li a {
         padding-left: 20px;
-        background:
+        /* background: */
     }
     #flex > li > .parent {
         background-image: url("../img/icons/downArrow.png");
